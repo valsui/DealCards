@@ -1,0 +1,32 @@
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100px;
+  height: 110px;
+  border: 1px solid black;
+  color: black;
+}
+
+.suit, .value-top, .value-bottom{
+  width: 100%;
+}
+
+.suit{
+  text-align: center;
+}
+
+.value-bottom{
+  text-align: right;
+}
+
+.cards-left {
+  text-align: center;
+}
